@@ -1,0 +1,41 @@
+main {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  width: 47rem;
+  height: 31rem;
+  background-color: #d9d9d9;
+  padding: 1rem;
+  border-radius: 40px 0 0 40px;
+
+  .enemyImg {
+    background: url('../../assets/background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 24px;
+  }
+
+  .enemyImg2 {
+    background: url('../../assets/lizard.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 24px;
+  }
+
+  .enemyText {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+
+    :first-child {
+      font-size: 1.5rem;
+      text-align: center;
+      margin-top: 1.5rem;
+    }
+
+    :last-child {
+      margin-top: 1.5rem;
+    }
+  }
+}
